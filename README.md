@@ -16,6 +16,7 @@ en la siguiente pantalla se puede observar como se muetra el nombre de la person
 
 - Codigo
 
+Verica que el campo contenga informacion si cumple el criterio envia alert con la indicacion de que se debe agregar algun nombre si cuenta con informacion agraga el nombre al arreglo. 
   ```
   let amigoSecreto = document.getElementById('amigo').value;
 
@@ -28,7 +29,18 @@ en la siguiente pantalla se puede observar como se muetra el nombre de la person
     // agrega elemento a la lista 
     else {
      arrayAmigos.push (document.getElementById('amigo').value);
+```
+Muestra los elementos que se encuentran en el arreglo 
   ```
+ let listaAmigos = document.getElementById('listaAmigos');
+    listaAmigos.innerHTML = "";
+    for ( let i =0; i < arrayAmigos.length; i++){
+        let nuevoAmigo = document.createElement('li');
+        nuevoAmigo.textContent = arrayAmigos[i];
+        listaAmigos.appendChild(nuevoAmigo);
+
+```
+
 
 - Tecnologias utilizadas
   

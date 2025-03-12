@@ -1,4 +1,4 @@
-### challenge-amigoSecreto
+### Challenge-amigoSecreto
 
 •	Descripción del proyecto 
  
@@ -65,7 +65,9 @@ let resultados = document.getElementById("resultado");
 - Tecnologias utilizadas
   
  -- JavaScript
+ 
  -- HTML
+ 
  -- CSS
 
 
